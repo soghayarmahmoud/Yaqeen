@@ -6,12 +6,10 @@ const Footer = () => {
   return (
     <footer className="flex flex-col md:flex-row items-center justify-between px-8 py-6 bg-[#f1f5f9] mt-auto border-t border-gray-200">
       
-      {/* الجزء الأيسر: الشعار */}
       <div className="text-xl font-extrabold text-[#0a4240] tracking-wide mb-4 md:mb-0">
         Yaqeen
       </div>
 
-      {/* الجزء الأوسط: الروابط */}
       <nav dir="rtl" className="flex flex-wrap justify-center gap-6 mb-4 md:mb-0">
         {footerLinks.map((link) => (
           <a key={link} href="#" className="text-sm text-gray-500 hover:text-[#0a4240] transition-colors font-medium">
@@ -20,9 +18,8 @@ const Footer = () => {
         ))}
       </nav>
 
-      {/* الجزء الأيمن: حقوق النشر */}
       <div dir="rtl" className="text-sm text-gray-500 font-medium">
-        © ٢٠٢٤ يقين. جميع الحقوق محفوظة.
+        © 2026 يقين. جميع الحقوق محفوظة.
       </div>
       
     </footer>
