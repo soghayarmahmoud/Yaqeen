@@ -4,7 +4,7 @@ import Footer from '../components/Footer.jsx';
 export default function TafsirPage() {
   return (
     <main className="min-h-screen bg-white">
-      <Header/>
+      <Header activeTab="التفسير"/>
       {/* Back Button */}
       <div className="bg-[#0a4240] text-white py-6 px-6 md:px-12">
         <Link href="/" className="inline-flex items-center gap-2 hover:opacity-80 transition-opacity">
