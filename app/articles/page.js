@@ -5,7 +5,7 @@ import Footer from '../components/Footer.jsx';
 export default function ArticlesPage() {
   return (
     <main className="min-h-screen bg-white">
-      <Header/>
+      <Header activeTab="المقالات"/>
       {/* Back Button */}
       
       <div className="bg-[#0a4240] text-white py-6 px-6 md:px-12">

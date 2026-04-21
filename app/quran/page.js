@@ -5,7 +5,7 @@ import Footer from '../components/Footer.jsx';
 export default function QuranPage() {
   return (
     <main className="min-h-screen bg-white">
-      <Header/>
+      <Header activeTab="القرآن"/>
       {/* Back Button */}
       <div className="bg-[#0a4240] text-white py-6 px-6 md:px-12">
         <Link href="/" className="inline-flex items-center gap-2 hover:opacity-80 transition-opacity">
@@ -17,7 +17,6 @@ export default function QuranPage() {
       </div>
 
       {/* Header */}
-      <Header/>
       <section className="bg-gradient-to-r from-teal-50 to-teal-100 py-16 px-6 md:px-12">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold text-[#0a4240] mb-4">القرآن الكريم</h1>
