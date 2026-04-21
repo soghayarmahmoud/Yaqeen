@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import Header from '../../components/Header.jsx';
-import Footer from '../../components/Footer.jsx';
+import Header from '../../components/header.jsx';
+import Footer from '../../components/footer.jsx';
 
 const surahs = {
   'surah-1': { number: 1, name: 'الفاتحة', englishName: 'Al-Fatiha', verses: 7, revelation: 'Meccan' },
